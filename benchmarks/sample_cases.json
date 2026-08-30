@@ -1,0 +1,14 @@
+[
+  {
+    "query": "What was revenue in FY2025?",
+    "expected_pages": [1]
+  },
+  {
+    "query": "Why did operating margin decline?",
+    "expected_pages": [1]
+  },
+  {
+    "query": "What is the liquidity position?",
+    "expected_pages": [1]
+  }
+]

@@ -1,0 +1,10 @@
+services:
+  leafroute:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      LEAFROUTE_ARTIFACT: /data/document.leaf
+    volumes:
+      - ./data:/data:ro
+    restart: unless-stopped
