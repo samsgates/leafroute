@@ -34,6 +34,8 @@ TreeIR + indexes             QueryIR
                   application / LLM
 ```
 
+![LeafRoute architecture](media_resources/architech_diagram.png)
+
 ## Why LeafRoute?
 
 Hierarchical RAG is attractive because real documents already have structure: chapters, sections, subsections, tables, notes, appendices, page ranges, and references. LeafRoute preserves that structure, but avoids making a generative model the default search engine.
@@ -123,7 +125,11 @@ A `.leaf` file is a self-contained SQLite artifact storing:
 
 Compile once and reopen without the original source file.
 
+![How LeafRoute works](media_resources/howitsworks.png)
+
 ## Current capabilities
+
+![LeafRoute features](media_resources/features.png)
 
 The repository currently implements:
 
